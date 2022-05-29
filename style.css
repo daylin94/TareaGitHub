@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(189, 243, 225);
+    color: rgb(112, 74, 31);
+    font-size: 25px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img1, .img2{
+    width: 50%;
+    height: 300px;
+}
