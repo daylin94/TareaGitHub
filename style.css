@@ -12,9 +12,10 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(189, 243, 225);
+    background-color: rgb(158, 24, 24);
     color: rgb(112, 74, 31);
     font-size: 25px;
+    text-decoration: none;
     
 }
 
@@ -27,6 +28,11 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.div2{
+    margin-top: 10px;
+    justify-content: justify;
 }
 
 .img1, .img2{
